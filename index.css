@@ -1,0 +1,117 @@
+{
+  padding : 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar {
+      background-color: pink;
+}
+
+#logo{
+    font-family: Dancing script;
+}
+
+#hero {
+    height: 80vh;
+    background-image: url("./images/Image1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 400px;
+}
+
+.hero-text .btn {
+  text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.hero-text .btn:hover {
+  background-color: dimgray; /* Change background color on hover */
+  color: white;
+}
+
+.color {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      display: inline-block;
+      border: 1px solid #ddd;
+      margin-right: 5px;
+    }
+    .color.black { background-color: #000; }
+    .color.gray { background-color: #ccc; }
+    .color.white { background-color: #fff; }
+    .color.red { background-color: #ff4d4d; }
+    .color.pink { background-color: #f5c3e8; }
+    .color.olive { background-color: #808000; }
+    .shop-button:hover {
+      background-color: dimgray;
+      color: white;
+    }
+    .product-card img {
+      height: 350px;
+      object-fit: cover;
+    }
+    .product-card {
+      height: 100%;
+    }
+
+.btn {
+  text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  padding: 10px 20px;
+  border-radius: 18px;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.Hero {
+    height: 80vh;
+    background-image: url("./images/Image 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+}
