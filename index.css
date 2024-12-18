@@ -108,10 +108,24 @@ img {
   display: inline-block;
 }
 
-.Hero {
+#Hero {
     height: 80vh;
-    background-image: url("./images/Image 2.jpg");
+    background-image: url("./images/Image2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: auto;
 }
+
+.footer-links a {
+      text-decoration: none;
+      color: inherit;
+      margin-right: 10px;
+    }
+.social-icons a {
+      font-size: 1.2rem;
+      margin: 0 10px;
+      color: black;
+    }
+.footer-bottom {
+      font-size: 0.9rem;
+    }

@@ -20,7 +20,7 @@
 <body>
        <!-- navbar Starts -->
      
-        <section>
+        <section id="navbar">
 		      <nav class="navbar navbar-expand-lg navbar-light">
 			  <div class="container-fluid">
 			    <a class="flex items-center justify-center navbar-brand ms-xl-5 " href="#" id="logo">Khy</a>
@@ -33,7 +33,7 @@
 			          <a class="nav-link active" aria-current="page" href="#">Home</a>
 			        </li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Products</a>
+			          <a class="nav-link" href="#container">Products</a>
 			        </li>
 			        <li class="nav-item">
 			          <a class="nav-link" href="#">Contact</a>
@@ -46,9 +46,9 @@
 
         <!-- navbar ends -->
 
-        <!-- hero starts -->
-        <div id="hero">
-        <section class=" hero hero-section text-center mb-4">
+ <!-- hero starts -->
+        <section id="hero">
+        <div class=" hero hero-section text-center mb-4">
         	<div class="hero-text container px-4 py-5">
         		<h1 class="lead display-4 display-5-sm">ESSENTIAL OUTWEAR</h1>
         		<p class="lead">
@@ -56,14 +56,17 @@
         		</p>
         		  <a href="#" class="btn btn-lg">Shop Must Have Outerwear</a>
         	</div>
-        </section>
-    </div>
-    <!-- hero ends -->
+        </div>
+    </section>
+
+ <!-- hero ends -->
 
   
     <!-- Winter Products starts -->
+    <section id="card">
     <div class="container py-5">
     <div class="row g-4">
+
       <!-- Product Card 1 -->
       <div class="col-12 col-md-6 col-lg-3 d-flex">
         <div class="card product-card flex-fill text-center">
@@ -126,26 +129,90 @@
         </div>
       </div>
     </div>
+    
     <!-- Shop Button -->
     <div class="text-center mt-4">
       <button class="btn shop-button px-5 py-2">Shop Essential Outerwear</button>
     </div>
   </div>
+  </section>
+
 <!-- Winter products ends -->
 
 <!-- Another Hero starts -->
-<div id="hero" class="Hero" >
+<div id="Hero" class="Hero" >
         <section class=" hero hero-section text-center mb-4">
         	<div class="hero-text container px-4 py-5">
-        		<h1 class="lead display-4 display-5-sm">ESSENTIAL OUTWEAR</h1>
+        		<h1 class="lead display-4 display-5-sm">ESSENTIAL WINTER WEAR</h1>
         		<p class="lead">
         			"The weather's cooling down, but your closet's heating up. Discover our must-have winter wardrobe staples."
         		</p>
-        		  <a href="#" class="btn btn-lg">Shop Must Have Outerwear</a>
+        		  <a href="#" class="btn btn-lg">Shop Must Have Winwear</a>
         	</div>
         </section>
     </div>
 <!-- Another hero ends -->
+
+<!-- Footer -->
+<footer class="bg-light py-5">
+  <div class="container">
+    <!-- Top Section -->
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h4 class="fw-bold">khy</h4>
+        <p>EDITED COLLECTIONS BY KYLIE JENNER AND SPECIAL GUEST COLLABORATORS</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h6 class="fw-bold">NEVER MISS AN UPDATE</h6>
+        <p>Enter your email to receive launch announcements, updates + Early Access.</p>
+        <form>
+          <div class="mb-2">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <button type="submit" class="btn btn-dark w-100">Submit</button>
+        </form>
+        <p class="mt-2 small">BY SIGNING UP YOU AGREE TO RECEIVE RECURRING AUTOMATED MARKETING MESSAGES FROM KHY. VIEW <a href="#" class="text-decoration-underline">TERMS</a> & <a href="#" class="text-decoration-underline">PRIVACY</a></p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h6 class="fw-bold">Quick Links</h6>
+        <div class="footer-links">
+          <div><a href="#">Shop All Products</a> | <a href="#">Best Sellers</a> | <a href="#">Digital Gift Card</a></div>
+          <div><a href="#">Collaborators</a> | <a href="#">Entire Studios</a> | <a href="#">Sia Arnika</a></div>
+          <div><a href="#">Account</a> | <a href="#">FAQs</a> | <a href="#">Returns</a></div>
+          <div><a href="#">Contact</a> | <a href="#">About</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="text-center my-4">
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-pinterest"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="footer-bottom text-center mt-4">
+      <p>&copy; 2024 K BRAND, INC ALL RIGHTS RESERVED.</p>
+      <p>
+        <a href="#" class="text-decoration-underline">Site Credits</a> |
+        <a href="#" class="text-decoration-underline">Accessibility</a> |
+        <a href="#" class="text-decoration-underline">Privacy Policy</a> |
+        <a href="#" class="text-decoration-underline">Terms & Conditions</a> |
+        <a href="#" class="text-decoration-underline">Cookies Settings</a>
+      </p>
+    </div>
+  </div>
+</footer>
+<!-- Footer Ends here-->
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- bootstrap script -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
